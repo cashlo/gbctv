@@ -7,7 +7,7 @@ RGBFIX = rgbfix
 
 RM_F = rm -f
 
-ASFLAGS = -h
+ASFLAGS =
 LDFLAGS = -t -w -n gbctv.sym
 FIXFLAGS = -v -p $(PADVAL) -t $(NAME) -C -m 0x1b -r 0x04
 
